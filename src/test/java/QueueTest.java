@@ -1,10 +1,13 @@
-import datastructures.Queue;
 import org.junit.Assert;
 import org.junit.Test;
 
+
+/**
+ * DO NOT MODIFY THIS FILE!
+ */
 public class QueueTest {
 
-    java.util.Queue queueBase = new Queue<Integer>();
+    java.util.Queue queueBase = new datastructures.Queue<Integer>();
 
     @Test
     public void should_return_empty_when_created() {
